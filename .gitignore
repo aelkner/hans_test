@@ -1,0 +1,6 @@
+*.pyc
+venv
+database
+media
+settings_production.py
+
