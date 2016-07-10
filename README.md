@@ -24,14 +24,14 @@ various cloud instances running.  For now, as a developer, one can get it
 running on their machine with the following instructions in a command
 window:
 
-> git clone git@github.com:cognoma/django-cognoma.git
-> cd django-cognoma
-> virtualenv env
-> source env/bin/activate
-> pip install -r requirements.txt
-> python manage.py migrate
-> python manage.py createsuperuser
-> python manage.py runserver
+    > git clone git@github.com:cognoma/django-cognoma.git
+    > cd django-cognoma
+    > virtualenv env
+    > source env/bin/activate
+    > pip install -r requirements.txt
+    > python manage.py migrate
+    > python manage.py createsuperuser
+    > python manage.py runserver
 
 Visiting localhost:800 should return the home page, currently the 'It worked'
 page that comes with a brand new django site.
