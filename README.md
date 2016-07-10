@@ -14,8 +14,8 @@ and will contain the following:
 * a Rest API for other components of the system to use to read and write data
   found on the django site.
 
-* a task handler, implemented using celery, to allow users to start long
-  queries without being blocked while waiting for them to finish
+* a task handler, implemented using celery, to allow users to start long-running
+  tasks without being blocked while waiting for them to finish
 
 The site is currently only ready to be run on a developer's machine.  As it
 becomes ready for staging, there will need to be instructions added for the
